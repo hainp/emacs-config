@@ -15,7 +15,7 @@
 ;; with this program.  If not, see <http://www.gnu.org/licenses/>.
 ;;
 
-(defvar *elpa-package-list* 
+(defvar *elpa-package-list*
   '(jedi                                ; Autocomplete and cool stuff for
                                         ; Python development
     ruby-mode
@@ -45,7 +45,7 @@
     dired-details+                      ; Better Dired information control
     magit                               ; Best Git interface for Emacs
     monky                               ; Magit-like mode for Mercurial
-    zlc                                 ; Zsh completion
+;;    zlc                                 ; Zsh completion
     hexrgb                              ; Color manipulation
     flx-ido                             ; Better ido
     projectile                          ; Better project management
