@@ -83,8 +83,9 @@ installed and loaded.")
     (url-retrieve
      "https://raw.github.com/dimitri/el-get/master/el-get-install.el"
      (lambda (s)
+       (let (el-get-master-branch)
        (goto-char (point-max))
-       (eval-print-last-sexp))))))
+       (eval-print-last-sexp)))))))
 
 (add-to-list 'el-get-recipe-path "~/emacs-config/el-get-user/recipes")
 (el-get 'sync)
