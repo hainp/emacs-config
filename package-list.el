@@ -45,7 +45,7 @@
     dired-details+                      ; Better Dired information control
     magit                               ; Best Git interface for Emacs
     monky                               ; Magit-like mode for Mercurial
-;;    zlc                                 ; Zsh completion
+    zlc                                 ; Zsh completion
     hexrgb                              ; Color manipulation
     flx-ido                             ; Better ido
     projectile                          ; Better project management
